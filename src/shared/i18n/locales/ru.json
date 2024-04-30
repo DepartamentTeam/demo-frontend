@@ -1,0 +1,166 @@
+{
+    "AccountNew": {
+        "title": "Регистрация",
+        "UploadCV": {
+            "title": "Загрузка резюме",
+            "subtitle": "Начнём с ваших сильных сторон",
+            "label": "Должность",
+            "placeholder": "Введите должность",
+            "dropdown": {
+                "title": "Перетащите файл резюме в эту область",
+                "subtitle1": "Принимаются файлы в форматах",
+                "subtitle2": "размером не более 5мб",
+                "btn": "Выбрать файл"
+            },
+            "success": {
+                "title": "Файл резюме загружен"
+            },
+            "error": {
+                "title": "Ошибка"
+            }
+        },
+        "SearchSettings": {
+            "title": "Настройки поиска",
+            "subtitle": "Уточним некоторые детали для увеличения точности подбора вакансий",
+            "selectCountry": {
+                "label": "Страна",
+                "placeholder": "Выберите страну",
+                "toggler": "Предлагать вакансии в других странах"
+            },
+            "selectCity": {
+                "label": "Город",
+                "placeholder": "Выберите город",
+                "toggler": "Предлагать вакансии в других городах"
+            },
+            "salary": {
+                "label": "Зарплатные ожидания (в месяц)"
+            }
+        },
+        "ActivateChirps": {
+            "title": "Запускай автоотклики",
+            "subtitle": "Оформляй пакет автооткликов, чтобы CVBird автоматически подавался на подходящие для тебя вакансии",
+            "seletPlaceholder": "Select position",
+            "footer": "Или оформи подписку <discount>  со скидкой </discount>",
+            "cards": {
+                "first": {
+                    "title": "20 автооткликов",
+                    "price": "499"
+                },
+                "second": {
+                    "title": "50 автооткликов",
+                    "price": "699"
+                },
+                "third": {
+                    "title": "100 автооткликов",
+                    "price": "999"
+                },
+                "fourth": {
+                    "title": "200 автооткликов",
+                    "price": "1499"
+                }
+            }
+        }
+    },
+    "Sub": {
+        "title": "Выберите план подписки",
+        "subtitle": "Экономьте и открывайте больше возможностей с премиум-подпиской",
+        "plan": {
+            "free": {
+                "title": "Бесплатный"
+            },
+            "basic": {
+                "title": "Базовый",
+                "cards": {
+					"first": {
+						"title" : "1 месяцев",
+						"price": "499"
+					},
+					"second": {
+						"title": "3 месяцев",
+						"price": "1199"
+					},
+					"third" :{
+						"title": "6 месяцев",
+						"price": "2299"
+					},
+					"fourth": {
+						"title": "12 + 1 месяцев",
+						"price": "3999"
+					}
+				}
+            },
+            "premium": {
+                "title": "Премиум",
+                "cards": {
+					"first": {
+						"title" : "1 месяцев",
+						"price": "1199"
+					},
+					"second": {
+						"title": "3 месяцев",
+						"price": "3299"
+					},
+					"third" :{
+						"title": "6 месяцев",
+						"price": "6799"
+					},
+					"fourth": {
+						"title": "12 + 1 месяцев",
+						"price": "9999"
+					}
+				}
+            }
+        },
+        "footer": "Оформляя тарифный план, вы соглашаетесь на <link>периодическое выставление счётов</link> за оказание услуг в рамках ежемесячных планов"
+    },
+       
+       
+    "Registration": {
+        "title": "Регистрация",
+        "nameLabel": ""
+    },
+    "SignIn": {
+        "title": "Войти",
+        "emailLabel": "Почта",
+        "emailPlaceholder": "Введите почту",
+        "passwordLabel": "Пароль",
+        "passwordPlaceholder": "Введите пароль",
+        "registration": "Еще не зарегестрированы?",
+        "forgotPassword": "Забыли пароль?",
+        "providersLabel": "или войдите с помощью",
+        "button": "Войти"
+    },
+    "Restore": {
+        "title": "Восстановление пароля",
+        "subtitle": "Введите адрес электронной почты, который вы использовали при регистрации, чтобы восстановить свой пароль. Вы получите ссылку для сброса пароля.",
+        "placeholder": "Ведите почту"
+    },
+    "SignUp": {
+        "title": "Регистрация",
+        "form": {
+            "nameLabel": "Имя",
+            "namePlaceholder": "Введите имя",
+            "emailLabel": "Email",
+            "emailPlaceholder": "Введите почту",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Enter your password"
+        },
+        "checkbox": "Нажимая на кнопку, вы соглашаетесь с условиями обработки <a target='_blank' className='a' href=''> персональных данных. </a>"
+    },
+    "btns": {
+        "back": "Назад",
+        "continue": "Продолжить",
+        "skip": "Пропустить",
+        "send": "Отправить"
+    },
+    "jobcard": {
+		"salary": "Зарплата",
+		"company": "Компания",
+		"location": "Локация",
+		"conditions": "Условия",
+		"published": "Опубликовано",
+        "description": "Описание",
+        "no_salary": "Обсуждается"
+	}
+    
+}

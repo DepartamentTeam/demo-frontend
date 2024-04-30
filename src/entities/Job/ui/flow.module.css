@@ -1,0 +1,14 @@
+.actions {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: space-between;
+	width: 420px;
+	padding: 0 1rem;
+	z-index: 90;
+	bottom: 6%;
+}
+
+.btn {
+	padding: 2rem;
+}

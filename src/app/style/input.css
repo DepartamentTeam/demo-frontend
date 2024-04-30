@@ -1,0 +1,7 @@
+.input__hide-password {
+	-webkit-text-security: disc;
+}
+
+.input__show-password {
+	-webkit-text-security: none;
+}

@@ -1,0 +1,106 @@
+.card {
+	border-radius: 1rem;
+	position: relative;
+	height: 100%;
+	width: 250px;
+	min-height: 340px;
+	height: 100%;
+	overflow: hidden;
+	flex: none;
+}
+
+.bg svg {
+	position: absolute;
+	bottom: -12%;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+.title {
+	font-family: "Mulish";
+	font-weight: 800;
+	color: var(--white);
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.purple {
+	background-color: var(--purple-300);
+}
+
+.purple svg {
+	fill: var(--purple-200);
+}
+
+.blue {
+	background-color: var(--primary-blue);
+}
+
+.blue svg {
+	fill: var(--blue-300);
+}
+
+.orange {
+	background-color: var(--orange-400);
+}
+
+.orange svg {
+	fill: var(--orange-200);
+}
+
+.green {
+	background-color: var(--green-400);
+}
+
+.green svg {
+	fill: var(--green-200);
+}
+
+.light_blue {
+	background-color: var(--blue-200);
+}
+
+.light_blue + .title {
+	color: var(--primary-blue);
+}
+
+.body {
+	background-color: var(--white);
+	border-radius: 1rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.938rem;
+}
+
+.body span {
+	text-wrap: nowrap;
+}
+
+.body div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.icon {
+	width: 32px;
+}

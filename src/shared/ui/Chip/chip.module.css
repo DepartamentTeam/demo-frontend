@@ -1,0 +1,37 @@
+.__container {
+	border: 1px solid;
+	border-color: transparent;
+	text-wrap: nowrap;
+	border-radius: 1rem;
+	padding: 0.2rem 0.5rem;
+	text-align: center;
+}
+
+.outlined {
+	background-color: transparent;
+}
+
+.filled {
+	font-weight: bold;
+	color: var(--dark-100);
+	border-color: transparent;
+	background-color: var(--white);
+}
+
+.primary {
+	border-color: transparent;
+	background-color: var(--blue-200);
+	color: var(--primary-blue);
+}
+
+.accent {
+	color: var(--orange-400);
+	border-color: var(--orange-400);
+	background-color: var(--orange-100);
+}
+
+.error {
+	color: var(--red-300);
+	border-color: var(--red-300);
+	background-color: var(--red-100);
+}

@@ -1,0 +1,30 @@
+.subhead-2__black {
+	font-weight: black;
+	font-size: 3rem;
+}
+
+.text__small-3 {
+	font-size: 14px;
+	color: var(--dark-60);
+}
+
+.text__bold {
+	font-weight: bold;
+}
+
+.blue {
+	color: var(--primary-blue);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.h4 {
+	font-size: 1.25rem;
+}
+
+.h5 {
+	font-family: "Mulish";
+	font-weight: 800;
+}

@@ -1,0 +1,149 @@
+.jobcard {
+	border-radius: 1rem;
+	overflow: hidden;
+	position: absolute;
+	background-color: var(--white);
+	height: 420px;
+	width: 350px;
+	opacity: 1;
+}
+
+.container {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	width: 350px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.header::after {
+	content: "";
+	width: 1rem;
+	height: 1rem;
+	clip-path: circle(50% at 50% 50%);
+	background-color: var(--blue-300);
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: 800;
+	color: var(--primary-blue);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 200px;
+	white-space: nowrap;
+}
+
+.title h3 {
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+	animation: title 20s linear infinite;
+}
+
+.body {
+	color: var(--dark-text-100);
+	padding: 1rem;
+	border: 1px solid var(--blue-100);
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 1rem;
+}
+
+.body .col {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+	color: var(--primary-blue);
+}
+
+.body strong {
+	font-weight: 800;
+	color: var(--dark-text-100);
+}
+
+.text {
+	text-align: right;
+	color: var(--dark-text-100);
+}
+
+.text svg {
+	vertical-align: middle;
+}
+
+.ball {
+	flex: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	background-color: var(--blue-100);
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	width: 100%;
+	padding: 1rem 0 0.5rem;
+}
+
+.actions button {
+	flex: 2;
+}
+
+.company {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 60;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+
+.countryBall svg {
+	width: 24px;
+	height: 24px;
+}
+
+.company .text {
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: right;
+}
+
+@keyframes title {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.jobcard {
+		background-color: var(--dark-400);
+		border-color: transparent;
+	}
+}

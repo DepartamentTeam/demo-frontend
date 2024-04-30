@@ -1,0 +1,37 @@
+.account__layout {
+	background-image: url("/bg-account.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 1rem 0;
+	gap: 2rem;
+	height: 100%;
+}
+
+.account__logo {
+	flex: none;
+}
+
+.account__cards__flexbox {
+	display: flex;
+	gap: 1rem;
+}
+
+@media (max-width: 600px) {
+	.account__layout {
+		background-size: contain;
+		justify-content: center;
+		align-items: stretch;
+	}
+
+	.account__logo {
+		align-self: center;
+	}
+
+	.account__cards__flexbox {
+		flex-direction: column;
+	}
+}

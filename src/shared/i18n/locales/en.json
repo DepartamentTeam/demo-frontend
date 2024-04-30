@@ -1,0 +1,165 @@
+{
+	"AccountNew": {
+		"title": "Registration",
+		"form_button_continue": "Continue",
+		"UploadCV": {
+			"title": "Resume Upload",
+			"subtitle": "Let's start with your strengths",
+			"label": "Position",
+			"placeholder": "Enter Position",
+			"dropdown": {
+				"title": "Drag and drop your resume file into this area",
+				"subtitle1": "File formats",
+				"subtitle2": "Maximum file size - 5 MB",
+				"btn": "Choose File"
+			},
+			"success": {
+				"title": "Resume file uploaded"
+			},
+			"error": {
+				"title": "Error"
+			}
+		},
+		"SearchSettings": {
+			"title": "Search Settings",
+			"subtitle": "Let's clarify some details to increase the accuracy of job matching",
+			"selectCountry": {
+				"label": "Country",
+				"placeholder": "Select country",
+				"toggler": "Suggest jobs in other countries"
+			},
+			"selectCity": {
+				"label": "City",
+				"placeholder": "Enter city",
+				"toggler": "Suggest jobs in other cities"
+			},
+			"salary": {
+				"label": "Salary expectations (per month)"
+			}
+		},
+		"ActivateChirps": {
+			"title": "Activate chirps",
+			"subtitle": "Activate the Chirp Package to have CVBird automatically apply to job opportunities that match your profile",
+			"seletPlaceholder": "Select position",
+			"footer": "Or sign up for <discount>discount subscription</discount>. ",
+			"cards": {
+				"first": {
+					"title": "20 chirps",
+					"price": "4.99"
+				},
+				"second": {
+					"title": "50 chirps",
+					"price": "8.99"
+				},
+				"third": {
+					"title": "100 chirps",
+					"price": "14.99"
+				},
+				"fourth": {
+					"title": "200 chirps",
+					"price": "20.99"
+				}
+			}
+		}
+	},
+	"SignIn": {
+		"title": "Sign In",
+		"emailLabel": "Email",
+		"emailPlaceholder": "Enter email",
+		"passwordLabel": "Password",
+		"passwordPlaceholder": "Enter password",
+		"forgotPassword": "Forgot password?",
+		"registration": "Not registered yet?",
+		"providersLabel": "or sign up with",
+		"button": "Sign In"
+	},
+	"Sub": {
+		"title": "Choose your subscription plan",
+		"subtitle": "Save and unlock more opportunities with a premium subscription",
+		"plan": {
+			"free": {
+				"title": "Free"
+			},
+			"basic": {
+				"title": "Basic",
+				"cards": {
+					"first": {
+						"title": "1 month",
+						"price": "4.99"
+					},
+					"second": {
+						"title": "3 months",
+						"price": "13.99"
+					},
+					"third": {
+						"title": "6 months",
+						"price": "26.99"
+					},
+					"fourth": {
+						"title": "12 + 1 months",
+						"price": "47.99"
+					}
+				}
+			},
+			"premium": {
+				"title": "Premium",
+				"cards": {
+					"first": {
+						"title": "1 month",
+						"price": "14.99",
+						"body": "<b>Full Access</b> <br/> 50 chirps  <br/> Job boards + LinkedIn "
+					},
+					"second": {
+						"title": "3 months",
+						"price": "40.99",
+						"body": "<b>Full Access</b> <br/> 100 chirps  <br/> Job boards + LinkedIn "
+					},
+					"third": {
+						"title": "6 months",
+						"price": "79.99",
+						"body": "<b>Full Access</b> <br/> 200 chirps  <br/> Job boards + LinkedIn "
+					},
+					"fourth": {
+						"title": "12 + 1 months",
+						"price": "139.99",
+						"body": "<b>Full Access</b> <br/> 300 chirps  <br/> Job boards + LinkedIn "
+					}
+				}
+			}
+		},
+		"footer": "Оформляя тарифный план, вы соглашаетесь на <link>периодическое выставление счётов</link> за оказание услуг в рамках ежемесячных планов"
+	},
+	"Restore": {
+		"title": "Password Recovery",
+		"subtitle": "Enter the email address you used during registration to recover your password. You will receive a link to reset your password.",
+		"placeholder": "Enter email"
+	},
+	"SignUp": {
+		"title": "Sign Up",
+		"form": {
+			"nameLabel": "Name",
+			"namePlaceholder": "Enter your name",
+			"emailLabel": "Email",
+			"emailPlaceholder": "Enter your email",
+			"passwordLabel": "Password",
+			"passwordPlaceholder": "Enter your password",
+			"checkbox": "Нажимая на кнопку, вы соглашаетесь с условиями обработки <a target='_blank' className='a' href=''> персональных данных. </a>"
+		}
+	},
+	"btns": {
+		"back": "Back",
+		"continue": "Continue",
+		"skip": "Skip",
+		"send": "Send",
+		"reg": "Registration"
+	},
+	"jobcard": {
+		"salary": "Salary",
+		"company": "Company",
+		"location": "Location",
+		"conditions": "Conditions",
+		"published": "Published",
+		"description": "Description",
+		"no_salary": "Discussed"
+	}
+}

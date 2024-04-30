@@ -1,0 +1,65 @@
+.input {
+	border: 1px solid transparent;
+	border-color: var(--primary-blue);
+	border-radius: 5rem;
+	padding: 0.5rem 1rem;
+}
+
+.input:focus {
+	outline: 2px solid var(--orange-400);
+}
+
+.container {
+	padding-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.container label {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.input__container input::placeholder {
+	color: var(--dark-60);
+}
+
+.helper {
+	position: absolute;
+	top: 50%;
+	right: 3%;
+}
+
+.helper svg {
+	fill: var(--primary-blue);
+}
+
+.error input {
+	border-color: var(--red-300);
+}
+
+.error span {
+	color: var(--red-300);
+}
+
+@media (prefers-color-scheme: dark) {
+	.input {
+		background: transparent;
+	}
+
+	.container label {
+		color: var(--white);
+	}
+
+	.container input {
+		color: var(--white);
+	}
+
+	.container input::placeholder {
+		color: var(--white);
+	}
+}

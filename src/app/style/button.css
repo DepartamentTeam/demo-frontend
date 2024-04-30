@@ -1,0 +1,104 @@
+.btn {
+	padding: 0.75rem 1.5rem;
+	border-radius: 50px;
+	border: 1px solid transparent;
+	color: var(--white);
+	width: 100%;
+	text-align: center;
+}
+
+.btn:active {
+	transform: scale(0.99);
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn--text {
+	padding-left: 0;
+	text-align: left;
+	color: var(--primary-blue);
+}
+
+.btn--primary + .btn--outlined {
+	background-color: transparent;
+}
+
+.btn--outlined {
+	color: var(--primary-blue);
+	background-color: var(--white);
+	border-color: var(--primary-blue);
+}
+
+.btn--icon {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background-color: transparent;
+	width: fit-content;
+}
+
+.btn--icon svg {
+	fill: var(--primary-blue);
+}
+
+.btn--lg {
+	padding-left: 1.75rem;
+	padding-right: 1.75rem;
+}
+
+.btn--primary {
+	background-color: var(--primary-blue);
+}
+
+.btn--secondary {
+	background: var(--blue-100);
+	color: var(--primary-blue);
+	text-align: center;
+}
+
+.btn--error {
+	background-color: var(--red-100);
+	color: var(--red-300);
+}
+
+.btn--error svg {
+	fill: var(--red-300);
+}
+
+.btn--warn {
+	background-color: var(--orange-100);
+}
+
+.btn--warn svg {
+	fill: var(--orange-400);
+}
+
+.btn--disabled {
+	pointer-events: none;
+	color: var(--blue-300);
+	background-color: var(--blue-200);
+}
+
+@media (prefers-color-scheme: dark) {
+	.btn--outlined {
+		color: var(--primary-blue);
+		background-color: transparent;
+		border-color: var(--primary-blue);
+	}
+
+	.btn--secondary {
+		background-color: var(--dark-300);
+	}
+
+	.btn--disabled {
+		color: var(--white-60);
+		background-color: var(--dark-200);
+	}
+
+	.btn--error {
+		background-color: var(--red-100);
+		color: var(--red-300);
+	}
+}

@@ -1,0 +1,38 @@
+.demo-container {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	transition: opacity 0.1s ease-in-out;
+	width: 420px;
+	height: 600px;
+	align-self: center;
+}
+
+.cards--container {
+	position: relative;
+	width: 420px;
+	height: 600px;
+	overflow-y: auto;
+}
+
+.cards--container > article {
+	flex: none;
+}
+
+.see-ya {
+	animation: see-ya 800ms 0s ease-in-out 1;
+}
+
+.see-ya div {
+	padding-left: 0;
+}
+
+@keyframes see-ya {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
